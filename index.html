@@ -1,105 +1,187 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh">
-<head>
-	<meta charset="UTF-8">
-	<link rel="icon" sizes="192x192" href="images/logo.png">
-	<!-- <link rel="stylesheet" href="https://fonts.useso.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.useso.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-light_blue.min.css">
-    <link rel="stylesheet" href="styles.css"> -->
-	<title>Andy 的成就</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Andy 的成就系统</title>
 
-<body>
-	<div style="max-width: 100%; margin: 0px auto; padding-top: 40px; display: flex; flex-wrap: wrap;">
-		<div class="Achievement crad"
-			style="width:310px; height:130px;
-			margin: 0px 10px 10px;
-			float:left;
-			background-color: rgb(255, 255, 255);
-			box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;">
-				<div class="Achievement"
-					style="width:100px; height:100px;
-					float:left;
-					margin:15px;
-					background:url(images/Achievement1.png);">
-				</div>
-				<div class="Achievement text"
-					style="width:90%;height:100px;
-					font-family: Roboto, sans-serif;
-					margin-top:20px;
-					margin-left: auto;
-					margin-right: auto;
-					<!-- background-color: #CCFFCC; -->">
-					<div style="color: rgb(76, 87, 101); font-size: 17px;">成 就 系 统 Ⅰ
-					</div><br>
-					<span style="color:#757575;font-size: 10px;"> 成功搭建起自己的Achievement System</span>
-					<div style="margin-top:15px;text-align:justify;display: flex; flex-wrap: wrap;">
-						<div style="font-size:10px;color: rgb(76, 175, 80);">+500 XP </div>&nbsp;&nbsp;&nbsp;
-						<div style="font-size:10px;color:#757575;">2017年1月7日</div>
-					</div>
-				</div>
-		</div>
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/logo.png">
 
-		<div class="Achievement crad"
-			style="width:310px; height:130px;
-			margin: 0px 10px 10px;
-			float:left;
-			background-color: rgb(255, 255, 255);
-			box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;">
-				<div class="Achievement"
-					style="width:100px; height:100px;
-					float:left;
-					margin:15px;
-					background-color: #33CCFF;">
-				</div>
-				<div class="Achievement text"
-					style="width:90%;height:100px;
-					font-family: Roboto, sans-serif;
-					margin-top:20px;
-					margin-left: auto;
-					margin-right: auto;
-					<!-- background-color: #CCFFCC; -->">
-					<div style="color: rgb(76, 87, 101); font-size: 17px;">成 就 搭 建 Ⅰ
-					</div>
-					<span style="color:#757575;font-size: 10px;">成功搭建起自己的成就系统,成功搭建起自己的成就系统</span>
-					<div style="margin-top:15px;text-align:justify;display: flex; flex-wrap: wrap;">
-						<div style="font-size:10px;color: rgb(76, 175, 80);">+500 XP </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<div style="font-size:10px;color:#757575;">2017年1月7日</div>
-					</div>
-				</div>
-		</div>
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/logo.png">
 
-		<div class="Achievement crad"
-			style="width:310px; height:130px;
-			margin: 0px 10px 10px;
-			float:left;
-			background-color: rgb(255, 255, 255);
-			box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;">
-				<div class="Achievement"
-					style="width:100px; height:100px;
-					float:left;
-					margin:15px;
-					background-color: #33CCFF;">
-				</div>
-				<div class="Achievement text"
-					style="width:90%;height:100px;
-					font-family: Roboto, sans-serif;
-					margin-top:20px;
-					margin-left: auto;
-					margin-right: auto;
-					<!-- background-color: #CCFFCC; -->">
-					<div style="color: rgb(76, 87, 101); font-size: 17px;">成 就 搭 建 Ⅰ
-					</div>
-					<span style="color:#757575;font-size: 10px;">成功搭建起自己的成就系统,成功搭建起自己的成就系统</span>
-					<div style="margin-top:15px;text-align:justify;display: flex; flex-wrap: wrap;">
-						<div style="font-size:10px;color: rgb(76, 175, 80);">+500 XP </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<div style="font-size:10px;color:#757575;">2017年1月7日</div>
-					</div>
-				</div>
-		</div>
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/logo.png">
 
 
-  </div>
-</body>
+    <link rel="stylesheet" href="https://fonts.css.network/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.css.network/icon?family=Material+Icons">
+    <link rel="stylesheet" href="material.cyan-light_blue.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+
+    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+      <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">成就</span>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search">
+              <label class="mdl-textfield__label" for="search">Enter your query...</label>
+            </div>
+          </div>
+          <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
+            <i class="material-icons">more_vert</i>
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
+            <li class="mdl-menu__item">About</li>
+            <li class="mdl-menu__item">Contact</li>
+            <li class="mdl-menu__item">Legal information</li>
+          </ul>
+        </div>
+      </header>
+      <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+        <header class="demo-drawer-header">
+          <center><img  src="images/toux.jpg" class="demo-avatar"></center>
+          <div align="center">Andy hou</div>
+            <!-- <button id="accbtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+              <i class="material-icons" role="presentation">arrow_drop_down</i>
+              <span class="visuallyhidden">Accounts</span>
+            </button> -->
+        </header>
+        <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>首页</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">airline_seat_individual_suite</i>睡觉系列</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">local_dining</i>吃货系列</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">attach_money</i>财产系列</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">laptop_chromebook</i>技术系列</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">directions_run</i>出行系列</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">local_activity</i>电影系列</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">videogame_asset</i>游戏系列</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">mode_edit</i>写作系列</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">radio_button_unchecked</i>其他系列</a>
+          <div class="mdl-layout-spacer"></div>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">help_outline</i><span class="visuallyhidden">Help</span></a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content mdl-color--grey-100">          
+          <div style="max-width: 100%; margin: 0px auto; display: flex; flex-wrap: wrap;">
+            <div class="Achievement crad mdl-cell mdl-cell--6-col"
+              style="height:130px;
+              /*margin: 0px 15px 10px;*/
+              float:left;
+              background-color: rgb(255, 255, 255);
+              box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;">
+                <div class="Achievement"
+                  style="width:100px; height:100px;
+                  float:left;
+                  margin:15px;
+                  background:url(images/Achievement1.png);">
+                </div>
+                <div class="Achievement text"
+                  style="width:90%;height:100px;
+                  font-family: Roboto, sans-serif;
+                  margin-top:20px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  <!-- background-color: #CCFFCC; -->">
+                  <div style="color: rgb(76, 87, 101); font-size: 17px;">成 就 系 统 Ⅰ
+                  </div>
+                  <span style="color:#757575;font-size: 10px;"> 成功搭建起自己的Achievement System</span>
+                  <div style="margin-top:15px;text-align:justify;display: flex; flex-wrap: wrap;">
+                    <div style="font-size:10px;color: rgb(76, 175, 80);">+500 XP </div>&nbsp;&nbsp;&nbsp;
+                    <div style="font-size:10px;color:#757575;">2017年1月7日</div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="Achievement crad mdl-cell mdl-cell--6-col"
+              style="height:130px;
+              /*margin: 0px 15px 10px;*/
+              float:left;
+              background-color: rgb(255, 255, 255);
+              box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;">
+                <div class="Achievement"
+                  style="width:100px; height:100px;
+                  float:left;
+                  margin:15px;
+                  background:url(images/Achievement1.png);">
+                </div>
+                <div class="Achievement text"
+                  style="width:90%;height:100px;
+                  font-family: Roboto, sans-serif;
+                  margin-top:20px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  <!-- background-color: #CCFFCC; -->">
+                  <div style="color: rgb(76, 87, 101); font-size: 17px;">成 就 系 统 Ⅰ
+                  </div>
+                  <span style="color:#757575;font-size: 10px;"> 成功搭建起自己的Achievement System</span>
+                  <div style="margin-top:15px;text-align:justify;display: flex; flex-wrap: wrap;">
+                    <div style="font-size:10px;color: rgb(76, 175, 80);">+500 XP </div>&nbsp;&nbsp;&nbsp;
+                    <div style="font-size:10px;color:#757575;">2017年1月7日</div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="Achievement crad mdl-cell mdl-cell--6-col"
+              style="height:130px;
+              /*margin: 0px 15px 10px;*/
+              float:left;
+              background-color: rgb(255, 255, 255);
+              box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;">
+                <div class="Achievement"
+                  style="width:100px; height:100px;
+                  float:left;
+                  margin:15px;
+                  background:url(images/Achievement1.png);">
+                </div>
+                <div class="Achievement text"
+                  style="width:90%;height:100px;
+                  font-family: Roboto, sans-serif;
+                  margin-top:20px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  <!-- background-color: #CCFFCC; -->">
+                  <div style="color: rgb(76, 87, 101); font-size: 17px;">成 就 系 统 Ⅰ
+                  </div>
+                  <span style="color:#757575;font-size: 10px;"> 成功搭建起自己的Achievement System</span>
+                  <div style="margin-top:15px;text-align:justify;display: flex; flex-wrap: wrap;">
+                    <div style="font-size:10px;color: rgb(76, 175, 80);">+500 XP </div>&nbsp;&nbsp;&nbsp;
+                    <div style="font-size:10px;color:#757575;">2017年1月7日</div>
+                  </div>
+                </div>
+            </div>
+
+          </div>
+
+      <!-- <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/dashboard/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white">View Source</a> -->
+    <script src="http://7xlgx2.com1.z0.glb.clouddn.com/material.min.js"></script>
+  </body>
 </html>
